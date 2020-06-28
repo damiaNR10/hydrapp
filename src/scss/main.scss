@@ -4,10 +4,48 @@
 @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: $colorBlue;
+  color: $colorWhite;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: $fontLato;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-section__button {
+  display: inline-block;
+  margin: 5px 0;
+  text-transform: lowercase;
+  border: 1px solid $colorBlack;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.main-section__counter {
+  background-image: url(/src/assets/img/glass.svg);
+  display: block;
+  min-width: 300px;
+  min-height: 300px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $colorBlack;
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.main-section__header {
+  text-transform: lowercase;
 }
