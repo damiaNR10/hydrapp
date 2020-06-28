@@ -5,8 +5,8 @@
   "background_color": "#1484fc",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
-  "start_url": "/wtf-webpack-starter/",
+  "scope": "https://damianr10.github.io/hydrapp/",
+  "start_url": "https://damianr10.github.io/hydrapp/",
   "icons": [
     {
       "src": "pwa/manifest-icon-192.png",
